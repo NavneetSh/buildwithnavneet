@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "buildwithnavneet",
+  "compatibility_date": "2026-07-03",
+  "routes": [
+    {
+      "pattern": "buildwithnavneet.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.buildwithnavneet.com",
+      "custom_domain": true
+    }
+  ]
+}
