@@ -1,17 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "buildwithnavneet",
+  "name": "buildwithnavneet-blog",
   "compatibility_date": "2026-07-03",
   "assets": {
     "directory": "./dist"
   },
   "routes": [
     {
-      "pattern": "buildwithnavneet.com",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.buildwithnavneet.com",
+      "pattern": "blog.buildwithnavneet.com",
       "custom_domain": true
     }
   ]
